@@ -1,0 +1,82 @@
+@media (hover: hover) {
+    button:hover {
+        background-color: coral;
+    }
+}
+@media (hover: none) {
+    button:active {
+        background-color: coral;
+    }
+}
+/* ----------------- @media ---------------- */
+@media (max-width: 1250px) {
+    .menu {
+      margin: auto;
+    }
+    .menu__list {
+      padding: 0 10px;
+      gap: 0 20px;
+    }
+    .registration {
+      font-size: 14px;
+      text-align: center;
+    }
+    .phone__number {
+      padding: 0 10px;
+    }
+    .header__inner {
+      min-height: auto;
+    }
+  }
+@media (max-width: 970px) {
+    .menu__list {
+      display: none;
+    }
+    .menu__btn {
+      margin: 0 15px;
+      display: flex;
+    }
+  }
+@media (max-width: 672px) {
+    .top__title {
+      font-size: 48px;
+    }
+  }
+@media (max-width: 610px) {
+    .registration {
+      font-size: 12px;
+    }
+    .top__title {
+      /* line-height: normal; */
+      font-size: 42px;
+    }
+    .phone__number {
+      font-size: 16px;
+    }
+    .top__list {
+      font-size: 18px;
+    }
+    .img_logo {
+      height: 50px;
+    }
+  }
+@media (max-width: 575px) {
+    .registration {
+      font-size: 10px;
+    }
+  }
+@media (max-width: 500px) {
+    .phone__number {
+      display: none;
+    }
+    .btn__main {
+      width: 100%;
+    }
+  }
+@media (max-width: 370px) {
+    .btn__main {
+      padding: 10px;
+      font-size: 16px;
+    }
+  }
+  
