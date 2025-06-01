@@ -27,6 +27,13 @@
     .header__inner {
       min-height: auto;
     }
+    .top__inner {
+      justify-content: center;
+    }
+    .top__banner, .top__card {
+      flex: 0 1 100%;
+      max-width: 800px;
+    }
   }
 @media (max-width: 970px) {
     .menu__list {
@@ -40,6 +47,14 @@
 @media (max-width: 672px) {
     .top__title {
       font-size: 48px;
+    }
+    .top__img-banner {
+      margin-top: 90px;
+      max-height: 500px;
+    }
+    .top__card {
+      margin-top: 20px;
+      min-height: 500px;
     }
   }
 @media (max-width: 610px) {
