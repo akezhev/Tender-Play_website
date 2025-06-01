@@ -191,7 +191,7 @@ body {
   max-height: 650px;
   box-shadow: 3px 3px 15px #bababa;
   border-radius: 20px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .top__card {
