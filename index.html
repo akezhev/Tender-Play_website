@@ -217,24 +217,77 @@
         <div class="container_1">
           <div class="block-5__inner">
             <h1>Отзывы</h1>
-            <div class="slideshow-container">
-              <div class="mySliders fade">
-                <img src="images/slide-1.png" style="width: 100%" alt="#">
+            <div class="swiper reviews-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="review-card">
+                    <div class="review-header">
+                      <img src="https://api.dicebear.com/7.x/initials/svg?seed=SI&backgroundColor=ef6817" alt="СтройИнвест" class="review-avatar company-logo">
+                      <div class="review-info">
+                        <h3>Анна Петрова</h3>
+                        <div class="review-stars">★★★★★</div>
+                      </div>
+                    </div>
+                    <p class="review-text">"Благодаря TenderPlay мы смогли выиграть несколько крупных тендеров. Профессиональная поддержка и внимание к деталям - именно то, что нам было нужно. Очень довольны сотрудничеством!"</p>
+                    <p class="review-company">ООО "СтройИнвест"</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-card">
+                    <div class="review-header">
+                      <img src="https://api.dicebear.com/7.x/initials/svg?seed=IP&backgroundColor=2b579a" alt="ИП Иванов" class="review-avatar company-logo">
+                      <div class="review-info">
+                        <h3>Сергей Иванов</h3>
+                        <div class="review-stars">★★★★★</div>
+                      </div>
+                    </div>
+                    <p class="review-text">"Отличный сервис! Помогли разобраться во всех тонкостях тендерного процесса. За полгода работы увеличили наш оборот в 2.5 раза. Рекомендую всем, кто хочет развиваться в сфере госзакупок."</p>
+                    <p class="review-company">ИП Иванов С.В.</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-card">
+                    <div class="review-header">
+                      <img src="https://api.dicebear.com/7.x/initials/svg?seed=MT&backgroundColor=1abc9c" alt="МедТехника" class="review-avatar company-logo">
+                      <div class="review-info">
+                        <h3>Мария Сидорова</h3>
+                        <div class="review-stars">★★★★★</div>
+                      </div>
+                    </div>
+                    <p class="review-text">"Команда TenderPlay - настоящие профессионалы! Помогли получить аккредитацию и выиграть первый тендер уже через месяц после начала работы. Отдельное спасибо за оперативные консультации."</p>
+                    <p class="review-company">ООО "МедТехника"</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-card">
+                    <div class="review-header">
+                      <img src="https://api.dicebear.com/7.x/initials/svg?seed=TS&backgroundColor=3498db" alt="ТехноСервис" class="review-avatar company-logo">
+                      <div class="review-info">
+                        <h3>Дмитрий Козлов</h3>
+                        <div class="review-stars">★★★★★</div>
+                      </div>
+                    </div>
+                    <p class="review-text">"Работаем с TenderPlay уже второй год. За это время значительно расширили географию поставок и увеличили портфель заказов. Ценим за профессионализм и индивидуальный подход."</p>
+                    <p class="review-company">ООО "ТехноСервис"</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="review-card">
+                    <div class="review-header">
+                      <img src="https://api.dicebear.com/7.x/initials/svg?seed=EP&backgroundColor=27ae60" alt="ЭкоПродукт" class="review-avatar company-logo">
+                      <div class="review-info">
+                        <h3>Елена Смирнова</h3>
+                        <div class="review-stars">★★★★★</div>
+                      </div>
+                    </div>
+                    <p class="review-text">"Превосходный сервис! Специалисты TenderPlay помогли нам выйти на новый уровень в тендерных закупках. Особенно ценно их внимание к деталям и готовность помочь в любой ситуации."</p>
+                    <p class="review-company">ООО "ЭкоПродукт"</p>
+                  </div>
+                </div>
               </div>
-              <div class="mySliders fade">
-                <img src="images/slide-1.png" style="width: 100%" alt="#">
-              </div>
-              <div class="mySliders fade">
-                <img src="images/slide-1.png" style="width: 100%;" alt="#">
-              </div>
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <br>
-            <div class="dot_box" style="text-align: center;">
-              <span class="dot" onclick="currentSlide(1)"></span>
-              <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
             </div>
           </div>
         </div>
@@ -334,5 +387,11 @@
     <script src="js/slider.js"></script>
     <script src="js/modal_window.js" defer></script>
     <script src="js/scroll.js" defer></script>
+    <!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- Add Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/reviews-swiper.js"></script>
   </body>
 </html>
