@@ -3,4 +3,4 @@
 -css
 -js
 
-[Посмотреть сайт](https://akezhev.github.io/Tender-Play/)
+[Посмотреть сайт](https://akezhev.github.io/Tender-Play_website/)
